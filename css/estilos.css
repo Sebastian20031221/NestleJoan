@@ -1,0 +1,49 @@
+.ite{
+    display: inline;
+}
+
+
+.preguntas{
+    height: 1000px;
+    clear: both;
+}
+.main-table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8em;
+}
+.main-table,th,td{
+    background-color: #fff;
+    color: black;
+}
+.acd-form{
+    background-color: aqua;
+}
+.main-table .comentarios{
+    width: 400px;
+}
+.main-table .alt{
+    width: 90px;
+    padding: 0px;
+    text-align: center;
+}
+.main-table .item-number{
+    width: 20px;
+    text-align: center;
+}
+input{
+    width: 20%;
+    background-color: #A50064;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input:hover{
+    background-color: #fff;
+    color: black;
+    transition: ease-in .2s;
+    cursor: pointer;
+}
